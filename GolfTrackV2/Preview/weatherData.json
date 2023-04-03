@@ -1,0 +1,49 @@
+{
+    "coord":{
+        "lon":-79.4163,
+        "lat":43.7001},
+    
+    "weather":[{
+        "id":601,
+        "main":"Snow",
+        "description":"snow",
+        "icon":"13d"
+        
+    }],
+    
+    "base":"stations",
+    "main":{
+        "temp":-0.43,
+        "feels_like":-7.43,
+        "temp_min":-1.47,
+        "temp_max":0.4,
+        "pressure":1015,
+        "humidity":86
+        
+    },
+    
+    "visibility":10000,
+    "wind":{
+        "speed":11.32,
+        "deg":300,
+        "gust":15.95},
+    
+    "snow":{
+        "1h":1.78},
+    
+    "clouds":
+    {"all":100},
+    "dt":1680122684,
+    "sys":{
+        "type":1,
+        "id":718,
+        "country":"CA",
+        "sunrise":1680087897,
+        "sunset":1680133186},
+    
+    "timezone":-14400,
+    "id":6167865,
+    "name":"Toronto",
+    "cod":200
+    
+}
