@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 class weatherService {
-    private var apiKey = "19ebbd3624b6415df3d676122f2cc206"
+    private var apiKey = //weatherAPI token
     func getCurrentWeather(latitude: CLLocationDegrees, longitude: CLLocationDegrees) async throws -> ResponseBody {
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=\(apiKey)&units=metric") else { fatalError("Missing URL")}
         
